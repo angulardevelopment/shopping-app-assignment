@@ -7,20 +7,20 @@
         <p class="ma-0 mt-8 text-center">${{product.price}}</p>
       </div>
       <div class="card-actions justify-content-center pa-4">
-        <button class="x-small outlined" data-test-id="btn-item-add">
+        <button class="x-small outlined" data-test-id="btn-item-add" (click)="updatecart(product)">
           Add To Cart
         </button>
 
         <div class="layout-row justify-content-between align-items-center">
-          <button class="x-small icon-only outlined"
-                  data-test-id="btn-quantity-subtract">
+          <button class="x-small icon-only outlined" [disabled]="product.isEnable"
+                  data-test-id="btn-quantity-subtract" (click) = "removeData(product, idx)">
             <i class="material-icons">remove</i>
           </button>
 
-          <input type="number" class="cart-quantity" data-test-id="cart-quantity"/>
+          <input type="number" class="cart-quantity" data-test-id="cart-quantity" value="{{product.cartQuantity}}"/>
 
           <button class="x-small icon-only outlined"
-                  data-test-id="btn-quantity-add">
+                  data-test-id="btn-quantity-add" (click) = "addData(product, idx)" [disabled]="product.isEnable">
             <i class="material-icons">add</i>
           </button>
         </div>

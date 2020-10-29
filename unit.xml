@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 86.0.4240 (Windows 10.0.0)" package="unit" timestamp="2020-10-29T18:08:46" id="0" hostname="LAPTOP-O3P9R9NA" tests="4" errors="1" failures="4" time="0.388">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/86.0.4240.111 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent Update quantity in cart" time="0.198" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:101:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '0' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:102:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '1' to equal '2'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:109:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '2' to equal '3'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:114:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '2' to equal '3'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:119:40
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '1' to equal '2'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:124:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '1' to equal '2'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:129:40
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="AppComponent Add item to cart" time="0.05" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;input _ngcontent-a-c41 type="number" data-test-id="cart-quantity" class="cart-quantity"&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:71:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:80:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '0' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:85:40
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="AppComponent Remove item from cart" time="0.058" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:144:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-quantity-add" class="x-small icon-only outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:153:20
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-quantity-subtract" class="x-small icon-only outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:154:25
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;tr _ngcontent-a-c42 class="slide-up-fade-in" id="cart-item-0"&gt;...&lt;/tr&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:160:22
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="AppComponent Performs Series of Actions" time="0.082" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:181:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:197:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '0' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:207:68
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '1' to equal '2'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:208:68
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '0' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:220:68
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '0' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:221:68
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;tr _ngcontent-a-c42 class="slide-up-fade-in" id="cart-item-1"&gt;...&lt;/tr&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:234:23
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '-1' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:245:68
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '0' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:246:68
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'Shoe' to equal 'HandBag'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:247:64
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected 'HandBag' to equal 'Pant'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:248:64
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 86.0.4240 (Windows 10.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 86.0.4240 (Windows 10.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 86.0.4240 (Windows 10.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 86.0.4240 (Windows 10.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

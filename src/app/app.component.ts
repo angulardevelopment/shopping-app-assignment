@@ -9,6 +9,7 @@ import {Cart, Product} from "../types";
 export class AppComponent {
   products: Product[];
   cart: Cart;
+  id =0;
 
   constructor() {
     this.cart = {
@@ -21,16 +22,22 @@ export class AppComponent {
       product.id = index + 1;
       product.image = `/assets/images/items/${product.name.toLocaleLowerCase()}.png`;
       product.cartQuantity = 0;
+      product.isEnable = true;
       return product;
     });
   }
 
   addToCart(product: Product) {
+      this.cart.items.push({'item':product.name, 'quantity': product.cartQuantity, id: this.id});
       
   }
 
   updateCart(product: Product) {
-      
+    this.cart.items.forEach(element => {
+      if (element.item === product.name) {
+        element.quantity = product.cartQuantity;
+      }
+    });
   }
 }
 

@@ -1,0 +1,10 @@
+.shop-component {
+  background: linear-gradient(to bottom, #fff 0%, #f3f7f7 100%);
+  //min-height: 100%;
+
+  app-product-list {
+    flex: 1 1 100%;
+    min-height: calc(100vh - 64px);
+  }
+}
+

@@ -1,0 +1,25 @@
+.coupon-select {
+  height: 32px;
+  width: 112px;
+
+  &:focus {
+    outline: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+}
+
+table {
+  margin-bottom: 12px;
+}
+
+
+ul {
+  &.styled {
+    &.outlined {
+      li {
+        //box-shadow: none;
+        //border: 1px solid rgba(var(--primary-rgb), 0.05);
+      }
+    }
+  }
+}

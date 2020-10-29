@@ -1,0 +1,30 @@
+<div class="layout-row wrap justify-content-center">
+  <section *ngFor="let product of products; let idx = index;" class="w-30 product-item">
+    <div class="card ma-16">
+      <img [src]="product.image" class="product-image"/>
+      <div class="card-text pa-4">
+        <h5 class="ma-0 text-center">{{product.name}}</h5>
+        <p class="ma-0 mt-8 text-center">${{product.price}}</p>
+      </div>
+      <div class="card-actions justify-content-center pa-4">
+        <button class="x-small outlined" data-test-id="btn-item-add">
+          Add To Cart
+        </button>
+
+        <div class="layout-row justify-content-between align-items-center">
+          <button class="x-small icon-only outlined"
+                  data-test-id="btn-quantity-subtract">
+            <i class="material-icons">remove</i>
+          </button>
+
+          <input type="number" class="cart-quantity" data-test-id="cart-quantity"/>
+
+          <button class="x-small icon-only outlined"
+                  data-test-id="btn-quantity-add">
+            <i class="material-icons">add</i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

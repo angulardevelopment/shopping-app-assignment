@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import "node_modules/h8k-design/lib/index";
+
+html, body {
+  height: 100%;
+}
+
+.app-header {
+  &.light {
+    background: white;
+    border-bottom: none;
+  }
+}
+
+.flex-70 {
+  flex: 0 0 70%;
+  width: 70%;
+
+}
+
+.flex-30 {
+  flex: 0 0 30%;
+  width: 30%;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card {
+  &.outlined {
+    background: white;
+    border: thin solid rgba(var(--primary-rgb), 0.1);
+    box-shadow: none;
+  }
+}
+
+button {
+  &.small {
+    font-size: 0.75em;
+  }
+
+  &.x-small {
+    font-size: 0.7em;
+  }
+}
+

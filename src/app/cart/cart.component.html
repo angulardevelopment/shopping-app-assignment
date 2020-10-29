@@ -1,0 +1,23 @@
+<div class="card my-16 mr-25">
+  <section class="layout-row align-items-center justify-content-center px-16">
+    <h4>Your Cart</h4>
+  </section>
+  <div class="divider"></div>
+  <table>
+    <thead>
+    <tr>
+      <th></th>
+      <th>Item</th>
+      <th class="numeric">Quantity</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let cartItem of cart?.items; let idx = index;" id="cart-item-{{idx}}"
+        class="slide-up-fade-in">
+      <td>{{idx + 1}}.</td>
+      <td class="name" data-test-id="cart-item-name">{{cartItem.item}}</td>
+      <td class="numeric quantity" data-test-id="cart-item-quantity">{{cartItem.quantity}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

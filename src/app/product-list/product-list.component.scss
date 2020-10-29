@@ -1,0 +1,19 @@
+.product-image {
+  margin: 32px 30%;
+  width: 40%;
+  min-height: 90px;
+}
+
+.cart-quantity {
+  max-width: 24px;
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  height: 28px;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}

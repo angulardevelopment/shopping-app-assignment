@@ -27,11 +27,13 @@ export class AppComponent {
     });
   }
 
+  // emit data receiver
   addToCart(product: Product) {
       this.cart.items.push({'item':product.name, 'quantity': product.cartQuantity, id: this.id});
-      
+
   }
 
+  // emitter
   updateCart(product: Product) {
     this.cart.items.forEach(element => {
       if (element.item === product.name) {
@@ -39,7 +41,14 @@ export class AppComponent {
       }
     });
   }
+
+  // event emitter
+  removeItem(product: Product) {
+
+  }
 }
+
+
 
 
 export const PRODUCTS: Product[] = [

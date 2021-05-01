@@ -1,4 +1,7 @@
-# Angular: HackerShop Shopping Cart
+# About
+
+Basic shopping app
+# Angular: Shopping Cart
 
 ## Environment 
 

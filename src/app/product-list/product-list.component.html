@@ -7,7 +7,7 @@
         <p class="ma-0 mt-8 text-center">${{product.price}}</p>
       </div>
       <div class="card-actions justify-content-center pa-4">
-        <button class="x-small outlined" data-test-id="btn-item-add" (click)="updatecart(product)">
+        <button class="x-small outlined" data-test-id="btn-item-add" (click)="updateCartData(product)">
           Add To Cart
         </button>
 
@@ -17,7 +17,7 @@
             <i class="material-icons">remove</i>
           </button>
 
-          <input type="number" class="cart-quantity" data-test-id="cart-quantity" value="{{product.cartQuantity}}"/>
+          <input type="number" class="cart-quantity" data-test-id="cart-quantity" value="{{product.cartQuantity}}" (change)="product.cartQuantity =  $event.target.value"/>
 
           <button class="x-small icon-only outlined"
                   data-test-id="btn-quantity-add" (click) = "addData(product, idx)" [disabled]="product.isEnable">

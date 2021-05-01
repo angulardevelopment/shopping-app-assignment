@@ -1,11 +1,11 @@
 {
-  "name": "hackershop",
+  "name": "shop",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "prestart": "npm install",
     "pretest": "npm install",
-    "start": "ng serve --host 0.0.0.0 --port 8000 --disable-host-check",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test"
   },

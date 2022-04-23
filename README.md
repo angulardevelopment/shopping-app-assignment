@@ -3,6 +3,23 @@
 Basic shopping app
 # Angular: Shopping Cart
 
+
+ecomm app
+
+functionality-
+
+Bulk Product- Import/Export
+Social Signup and login
+Visitors Count and Product Views
+Pdf invoices packing
+slips
+SMS Notification
+Email Notification
+Discount Engine
+Product filters
+Gift Voucher
+
+
 ## Environment 
 
 - Angular CLI Version: 10.0.4

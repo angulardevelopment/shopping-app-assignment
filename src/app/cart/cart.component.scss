@@ -17,8 +17,8 @@ ul {
   &.styled {
     &.outlined {
       li {
-        //box-shadow: none;
-        //border: 1px solid rgba(var(--primary-rgb), 0.05);
+        box-shadow: none;
+        border: 1px solid rgba(var(--primary-rgb), 0.05);
       }
     }
   }

@@ -13,12 +13,95 @@
   color: white;
   padding: 10px 20px;
 }
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Carousel Container */
+/* Carousel Styles */
+.carousel {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
 }
+
+.carousel-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.carousel-prev, .carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
+
+.carousel-prev:hover, .carousel-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Product and Cart Styles */
+.shop-component {
+  display: flex;
+  padding: 20px;
+}
+
+.flex-70 {
+  width: 70%;
+}
+
+.flex-30 {
+  width: 30%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input[type="number"] {
+  width: 60px;
+  margin-right: 10px;
+}
+
 
 .logo a {
   color: white;
@@ -41,6 +124,7 @@
 .nav-links li a:hover {
   color: #ff6347; /* Change to your desired hover color */
 }
+
 .footer {
   background-color: #333;
   color: #fff;

@@ -41,3 +41,74 @@
 .nav-links li a:hover {
   color: #ff6347; /* Change to your desired hover color */
 }
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;  /* Reduced padding for shorter height */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  text-align: center;
+  padding: 5px;  /* Reduced padding inside each section */
+}
+
+.footer-logo a {
+  font-size: 1.6em;  /* Slightly smaller logo */
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;  /* Removed extra spacing */
+}
+
+.footer-links li {
+  margin: 5px 0;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9em;  /* Slightly smaller font */
+}
+
+.footer-social a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 1.4em;  /* Icon size */
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ffdd57;  /* Change color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 5px;  /* Reduced space for footer bottom */
+  border-top: 1px solid #555;
+  font-size: 0.8em;  /* Slightly smaller text */
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;  /* Stack items on smaller screens */
+  }
+
+  .footer-section {
+    margin-bottom: 10px;
+  }
+}

@@ -1,102 +1,92 @@
-# About
 
-Basic shopping app
-# Angular: Shopping Cart
+# My Awesome YouTube Channel
 
+Welcome to my YouTube channel! 🎉 In this channel, I share exciting content related to web development. Whether you're interested in Angular, Javascript, or Productivity tips, you'll find something valuable here.
+[YouTube Channel](http://youtube.com/@neweraofcoding)
 
-ecomm app
+## About Me
 
-functionality-
+I'm Sam, and I'm passionate about product engineering and web development. I create videos that will help you learn web development.
 
-Bulk Product- Import/Export
-Social Signup and login
-Visitors Count and Product Views
-Pdf invoices packing
-slips
-SMS Notification
-Email Notification
-Discount Engine
-Product filters
-Gift Voucher
+## What You'll Find Here
 
-
-## Environment 
-
-- Angular CLI Version: 10.0.4
-- Angular Core Version: 10.0.4
-- Node Version: 12.18.3
-- Default Port: 8000
-
-### Application Demo:
-
-![](https://hrcdn.net/s3_pub/istreet-assets/gMzCl_zemNrL_71YPagyqg/hackershop-shopping-cart.gif)
-
-The app has two separate views/components. The Product Listing Component and Cart Component. The list of products to be displayed is already provided in the app. 
-
-The app should implement the following functionalities:
-
-- Clicking on each Add To Cart should add the item to the shopping cart. The listing in the Product Listing component should be updated to show the Increase/Decrease Quantity button and the quantity of the item in cart.
-  
-- Clicking on each Increase Quantity Button should increase the quantity of the item in cart. 
-  
-- Clicking on each Decrease Quantity button when:
-  
-  - Cart Quantity of item is 1:  Should remove the item from the cart, hide the Increase/Decrease Quantity button, and should show the Add to Cart button.
-  
-  - Cart Quantity Greater than 1: The quantity of the item in the cart should be decreased.
-  
-- On every quantity update operation, the text for the Quantity of item should be updated both in the Listing component as well as in the corresponding entry in the Cart Component.
-
-- Items should be displayed in the Cart Component in the order they are added to Cart. 
-  
-- The list of products and the cart object is passed as Prop to the Product Listing Component and Cart Component respectively.
-  
-
-Each product object contains the following properties : 
-- name: Name of the product. [STRING]
-- price - The price of the Product. [NUMBER]
-- id: Unique ID of the product. (Auto Generated) [NUMBER]
-- image:  The image URL of the product. [STRING]
-- cartQuantity: The quantity of the item in the cart. The default value should be 0. [NUMBER]
+- **[ Angular ]**: [Learn the fundamentals. I explained everything you need to get started with this JavaScript framework written in TypeScript. It is the web development framework for building the future. works at any scale. Loved by millions. Build for everyone.  open-source framework for building single-page client applications using HTML and TypeScript.]
+- **[ Javascript ]**: [JavaScript is a powerful programming language that can add interactivity to a website. JavaScript is easy to learn. It's the foundation of frontend web development.]
+- **[ Career Tips ]**: [self-assessment, goal setting, action planning, implementation, and refinement. By following these steps, you can develop a road map for achieving your career goals. Tips to improve your career development. Cultivating a beginner's mindset is a critical part of career growth. critical part of your professional growth.]
+- **[ Common Errors ]**: [Mistakes to Avoid in Software Development Projects.]
+- **[ Development Tools ]**: [Top Software Development Tools List.]
+- **[ Typescript ]**: [TypeScript extends JavaScript by adding types to the language. TypeScript speeds up your development experience by catching errors. TypeScript can help enhance and improve your web development projects.]
+- **[ Git & GitHub ]**: [GitHub is where over 100 million developers shape the future of software together. Contribute to the open-source community and manage Git repositories. This practical guide gets you to jump right into using GitHub, learning the basics of Git. Git and GitHub are two of the most essential tools in the world of software development.]
+- **[ Video Conferencing Tool ]**: [Unlock the potential of video conferencing software development. Dive into our guide for insights on key features and cost factors.  If you're looking to integrate video communication into your app or planning to build a video streaming/conference app from scratch, create a fully customized audio & video conferencing app.]
 
 
-Each item in the cart, Type CartItem has the following properties:
-- id: The ID of the product added to the cart. [NUMBER]
-- item - The name of the product added to the cart. [STRING]
-- quantity: The quantity of the item in the cart [NUMBER]
+### About the app
+
+### Packages used
 
 
-The following data-test-id/class attributes are required in the component for the tests to pass:
-- Each product item in the Listing component should have the class product-item.
-- Each Add to Cart button should have the data-test-id attribute 'btn-item-add'.
-- Each Increase Quantity button should have the data-test-id attribute 'btn-quantity-add'.
-- Each Decrease Quantity button should have the data-test-id attribute 'btn-quantity-subtract'.
-- Each input to display the Cart Quantity in the Listing component should have the data-test-id attribute 'cart-quantity'.
-- The table rows `<tr>` in the Cart Component corresponding to items in the cart should have the id attribute of cart-item-0, cart-item-1, and so on.
-- The table data `<td>` containing the Name of the Item in the cart should have the data-test-id attribute 'cart-item-name'.
-- The table data `<td>` containing the Quantity of the Item in the cart should have the data-test-id attribute 'cart-item-quantity'.
+## Subscribe and Stay Updated!
 
-_Note: Please note that the component has the above data-test-id attributes for test cases and certain classes and ids for rendering purposes. It is advised not to change them._
+Don't miss out on new videos! Subscribe to my channel and hit the notification bell 🔔 to receive updates whenever I upload fresh content. Let's learn, laugh, and explore together!
+
+[!Subscribe to My Channel](http://youtube.com/@neweraofcoding)
+
+## Connect with Me
+
+- **YouTube**: [YouTube Channel Link](http://youtube.com/@neweraofcoding)
+- **Facebook**: [Facebook Page Link](https://www.facebook.com/learnangular2plus/)
+- **Instagram**: [Instagram Page Link](https://www.instagram.com/angular_development/)
+
+Feel free to reach out, comment on videos, and share your thoughts. I appreciate your support! 🙌
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+If you have any questions or need further assistance, feel free to ask! 🚀
 
 
-
-## Project Specifications
-
-**Read Only Files**
-- src/tsconfig.spec.json
-- src/app/app.module.ts
-- src/app/app.component.spec.ts
-
-**Commands**
-- run: 
 ```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm start
+
+
+
+ _____ _                 _     __   __            
+|_   _| |               | |    \ \ / /            
+  | | | |__   __ _ _ __ | | __  \ V /___  _   _   
+  | | | '_ \ / _` | '_ \| |/ /   \ // _ \| | | |  
+  | | | | | | (_| | | | |   <    | | (_) | |_| |  
+  \_/ |_| |_|\__,_|_| |_|_|\_\   \_/\___/ \__,_|  
+                                                  
+                                                  
+______                                            
+|  ___|                                           
+| |_ ___  _ __                                    
+|  _/ _ \| '__|                                   
+| || (_) | |                                      
+\_| \___/|_|                                      
+                                                  
+                                                  
+______      _               _   _               _ 
+| ___ \    (_)             | | | |             | |
+| |_/ / ___ _ _ __   __ _  | |_| | ___ _ __ ___| |
+| ___ \/ _ \ | '_ \ / _` | |  _  |/ _ \ '__/ _ \ |
+| |_/ /  __/ | | | | (_| | | | | |  __/ | |  __/_|
+\____/ \___|_|_| |_|\__, | \_| |_/\___|_|  \___(_)
+                     __/ |                        
+                    |___/                         
+
+ 
+
+
 ```
-- install: 
-```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm install
+---------
+```javascript
+
+if (youEnjoyed) {
+    starThisRepository();
+}
+
 ```
-- test: 
-```bash
-bash bin/env_setup && . $HOME/.nvm/nvm.sh && npm test
-```
+---------

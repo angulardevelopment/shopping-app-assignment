@@ -5,8 +5,10 @@ import {Product, UpdateMode} from "../../types";
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.scss'],
-  preserveWhitespaces: false
+  preserveWhitespaces: false,
 
+  standalone: false
+  
 })
 export class ProductListComponent implements OnInit {
   @Input() products: Product[];

@@ -21,7 +21,21 @@ I'm Sam, and I'm passionate about product engineering and web development. I cre
 
 
 ### About the app
+A simple shopping app built with modern web technologies to demonstrate core e-commerce functionality including product listing, cart management, and order summary. Ideal as a learning project for Angular, component design, state management, and responsive UI.
 
+Features
+
+🛒 Product listing with categories
+
+➕ Add/remove from cart
+
+🔢 Update quantity
+
+💵 Total price calculation
+
+🧾 Order summary
+
+🌐 Responsive layout (mobile-first)
 ### Packages used
 
 

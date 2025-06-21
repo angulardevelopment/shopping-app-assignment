@@ -37,7 +37,6 @@ export class AppComponent implements OnInit {
       product.id = index + 1;
       product.image = `/assets/images/items/${product.name.toLowerCase()}.png`;
       product.cartQuantity = 0;
-      product.isEnable = true;
       return product;
     });
   }
